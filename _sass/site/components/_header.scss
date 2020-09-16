@@ -5,9 +5,8 @@
   }
 
   .header-content {
-
     .logo-nav-wrapper {
-       @extend .grid-container;
+      @extend .grid-container;
 
       .logo-title-wrapper {
         @include grid-column(4);
@@ -55,11 +54,10 @@
     }
 
     .logo {
-      transition: width 200ms ease,
-                  margin-right 200ms ease;
+      transition: width 200ms ease, margin-right 200ms ease;
       vertical-align: top;
       display: inline-block;
-      margin-right: .6em;
+      margin-right: 0.6em;
       width: rem(48px);
       height: rem(48px);
 
@@ -98,7 +96,7 @@
 
     span {
       font-size: rem(16px);
-      letter-spacing: .08rem;
+      letter-spacing: 0.08rem;
       text-transform: uppercase;
       align-self: center;
     }
@@ -110,7 +108,7 @@
     &:focus {
       top: 0;
       text-align: center;
-      left: calc(50% - (300px/2));
+      left: calc(50% - (300px / 2));
       z-index: 10000;
       width: 300px;
       height: auto;
@@ -122,7 +120,7 @@
       text-decoration: none;
       background: white;
       outline: 0;
-      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
 
       &:hover {
         text-decoration: underline;
@@ -133,15 +131,9 @@
 
 // Sticky header behaviour
 .main-header {
-  will-change: transform,
-               background,
-               padding-top,
-               padding-bottom;
+  will-change: transform, background, padding-top, padding-bottom;
 
-  transition: transform 200ms ease,
-              background 200ms ease,
-              padding-top 300ms ease,
-              padding-bottom 200ms ease;
+  transition: transform 200ms ease, background 200ms ease, padding-top 300ms ease, padding-bottom 200ms ease;
 
   padding-top: rem(32px);
   padding-bottom: rem(20px);
@@ -185,7 +177,7 @@
   }
 
   &.sticky-header--hidden:after {
-    content: '';
+    content: "";
     position: fixed;
     left: 0;
     right: 0;

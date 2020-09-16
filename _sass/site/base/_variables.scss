@@ -12,7 +12,7 @@
   --font-size-xlarge: #{rem(20px)};
   --font-size-xxlarge: #{rem(24px)};
   --font-size-xxlarge-2: #{rem(28px)};
-  --font-size-xxxlarge:#{rem(32px)};
+  --font-size-xxxlarge: #{rem(32px)};
   --font-size-xxxxlarge: #{rem(40px)};
   --font-size-xxxxxlarge: #{rem(56px)};
   --font-size-xxxxxxlarge: #{rem(72px)};
@@ -32,7 +32,7 @@
   --font-size-form-label: var(--font-size-xlarge);
   --font-size-nav: var(--font-size-xlarge);
 
-  --font-letter-spacing-subtle: .06rem;
+  --font-letter-spacing-subtle: 0.06rem;
 
   --paragraph-spacing: 1.3rem;
 
@@ -42,10 +42,10 @@
   --inner-padding: #{rem(16px)};
   --inner-padding-horizontal: #{rem(10px)};
 
-  --color-primary: 255,255,255;
-  --color-secondary: 33,33,33;
+  --color-primary: 0, 0, 0;
+  --color-secondary: 250, 255, 255;
   --color-tertiary: 0, 0, 255;
-  --color-action: #65ff80;
+  --color-action: #ff9165;
 
   --color-highlight-rgb: var(--color-tertiary);
   --color-highlight: rgb(var(--color-highlight-rgb));
@@ -54,15 +54,15 @@
   --color-background-rgb: var(--color-secondary);
   --color-line: rgba(var(--color-primary), var(--color-rgb-opacity-tint-mid));
   --color-line-subtle: rgba(var(--color-primary), var(--color-rgb-opacity-tint-light));
-  --color-text: rgba(var(--color-primary),.95);
-  --color-form-background: rgba(var(--color-primary),.95);
-  --color-text-inverted: rgba(var(--color-secondary),.95);
+  --color-text: rgba(var(--color-primary), 0.95);
+  --color-form-background: rgba(var(--color-primary), 0.95);
+  --color-text-inverted: rgba(var(--color-secondary), 0.95);
 
   --color-cta: var(--color-action);
 
-  --color-rgb-opacity-tint-light: .1;
-  --color-rgb-opacity-tint-mid: .6;
-  --color-rgb-opacity-tint-dark: .85;
+  --color-rgb-opacity-tint-light: 0.1;
+  --color-rgb-opacity-tint-mid: 0.6;
+  --color-rgb-opacity-tint-dark: 0.85;
 }
 
 @include grid-media(tablet) {
@@ -118,4 +118,4 @@ $measure-large: rem(64px);
  * GEOMETRY
  */
 
-$timing-interaction: .2s;
+$timing-interaction: 0.2s;
