@@ -23,7 +23,7 @@ long-title: Evan Brothers
 email: ekbrothers@gmail.com
 description: "The selected portfolio of Cincinnati based techie Evan Brothers"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://evanbrothers.net # the base hostname & protocol for your site
+url: "https://evanbrothers.net" # the base hostname & protocol for your site
 timezone: Europe/London
 year: 2020
 start-year: 2010
@@ -31,11 +31,13 @@ sitemap: true
 
 # Social networks
 social-username:
-  twitter: "@ekbrothers"
-  linkedin: "evanbrothers"
-  github: "ekbrothers"
-  medium: "@ekbrothers"
-  instagram: "ekbrothers"
+  twitter: "@mattgreydesign"
+  linkedin: "himatt"
+  github: "mattgreydesign"
+  medium: "@mattgreydesign"
+  pinterest: "mattgreydesign"
+  instagram: "mattgreydesign"
+  flickr: "mattgreydesign"
   spotify: "mattgreydesign"
 
 # Content
