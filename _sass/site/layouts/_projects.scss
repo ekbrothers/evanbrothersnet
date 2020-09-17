@@ -13,15 +13,15 @@ $thumb-animation-ease-out: ease-in-out;
     @include grid-column(6);
 
     @include grid-media(phablet) {
-      @include grid-column-from-to(2,5);
+      @include grid-column-from-to(2, 5);
     }
 
     @include grid-media(tablet) {
-      @include grid-column-from-to(3,10);
+      @include grid-column-from-to(3, 10);
     }
 
     @include grid-media(desktop) {
-      @include grid-column-from-to(4,9);
+      @include grid-column-from-to(4, 9);
     }
   }
 }
@@ -64,7 +64,6 @@ $thumb-animation-ease-out: ease-in-out;
 }
 
 .project-listing {
-
   .thumbnail-wrapper {
     a {
       outline: 0;
@@ -91,7 +90,7 @@ $thumb-animation-ease-out: ease-in-out;
       h3 {
         display: block;
         color: var(--color-text);
-        margin-top: .4em;
+        margin-top: 0.4em;
         font-size: var(--font-size-body);
       }
 
@@ -112,7 +111,7 @@ $thumb-animation-ease-out: ease-in-out;
           transition-property: opacity;
           transition-timing-function: $thumb-animation-ease-out;
           transition-duration: $thumb-animation-time-out;
-          padding: .5rem 2rem;
+          padding: 0.5rem 2rem;
           position: absolute;
           width: 100%;
           height: 100%;
@@ -158,7 +157,6 @@ $thumb-animation-ease-out: ease-in-out;
 
       &:hover .thumbnail-description-wrapper p.thumbnail-description,
       &:focus .thumbnail-description-wrapper p.thumbnail-description {
-
         //semi-transparent background
         opacity: 1;
 
@@ -180,10 +178,8 @@ $thumb-animation-ease-out: ease-in-out;
 
       &:hover .thumbnail-description-wrapper img,
       &:focus .thumbnail-description-wrapper img {
-        filter:
-          grayscale(100%)
-          //contrast(200%)
-        ;
+        filter: grayscale(100%) //contrast(200%)
+;
       }
     }
   }

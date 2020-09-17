@@ -59,18 +59,15 @@ compress_html: # http://jch.penibelst.de/
   comments: []
   endings: []
   #ignore:
-    #envs: [local]
+  #envs: [local]
   blanklines: false # boolean - strip blank lines and breaks
   profile: false
   startings: []
-
 
 # Structure
 navigation:
   - title: Projects
     url: /
-  - title: Fonts
-    url: /fonts
   - title: About
     url: /about
   - title: Contact

@@ -1,43 +1,37 @@
 ---
 date: 2016-02-20
 published: true
-title: "Unified Icon Set"
+title: "Multilingual Mobile Malaria Survey"
 description: "An extensive icon system with a unified style"
 categories: icons
-disciplines: Icon design
+disciplines: Mobile Development
 media:
 ownership: Personal
 client:
-time_period: 2016 – present
+time_period: 2015
 thumbnail: "/projects/unified/plist-unified.png"
 
 intro: |
-  Unified was created in response to the ever-growing demand for a set of
-  universally appropriate icons suitable for projects I work on, both
-  commercially and personally.
-
-  This icon set is an ongoing project with new icons being introduced
-  constantly, to date there are around 500 icons, not all of which are available
-  for purchase yet.
+  During evenings in my rural Zambian community, drawing power from a solar-powered car battery, I built a mobile malaria survey hosted on AWS for use with Open Data Kit, an open-source app used by the WHO, CDC, USAID, Red Cross and Red Crescent, and the Carter Center. This survey incorporated conditional-logic to ensure survey questions were concise and targeted, and implemented GPS to record the location of survey entries. In using mobile phones and cellular data networks, manual data entry was not necessary, and analysis of the raw data could be done on the cloud directly.
 
 content_layout:
-  - section_layout: 3col
+  - section_layout: 2col
     images:
       - caption:
-        description: Globe icon
-        url: '/projects/unified/unified-globe-icon-guides.png'
+        description: Survey Mockup
+        url: "/projects/unified/Village-Bundle-Mockup-1.jpg"
         width:
         height:
 
       - caption:
         description: Watch icon
-        url: '/projects/unified/unified-watch-icon-guides.png'
+        url: "/projects/unified/unified-watch-icon-guides.png"
         width:
         height:
 
       - caption:
         description: Paint bucket icon
-        url: '/projects/unified/unified-fill-icon-guides.png'
+        url: "/projects/unified/unified-fill-icon-guides.png"
         width:
         height:
 
@@ -48,8 +42,7 @@ content_layout:
           could be used in a wide range of circumstances — like for different
           cultures, at small sizes and with and without labels.
         description: Icon set specimen
-        url: '/projects/unified/unified-icon-specimen.png'
+        url: "/projects/unified/unified-icon-specimen.png"
         width:
         height:
-
 ---
