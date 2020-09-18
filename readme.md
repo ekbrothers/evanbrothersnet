@@ -1,4 +1,4 @@
-## Setup
+# Setup
 
 This site runs on Jekyll, an opensource static site generating platform.
 
@@ -46,7 +46,7 @@ bundle update --bundler
 
 <br>
 
-## General information
+# General information
 
 - Static website
 - Optimised for efficient [PageSpeed Insights benchmarks](https://developers.google.com/speed/pagespeed/insights/?url=himatt.com) (still more to do in this space)
@@ -58,3 +58,9 @@ bundle update --bundler
 ### Underlying source code
 
 [GNU General Public License v3.0](LICENSE) (open source)
+
+# Additional Information on the Theme
+
+## Project List Image Resolution
+
+Plist images (the thumbnails used on the Projects page) are at a ratio 600 x 450.

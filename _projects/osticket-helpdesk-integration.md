@@ -9,7 +9,7 @@ media: Digital
 ownership: Personal
 client:
 time_period: 2010
-thumbnail: "/projects/osticket-integration/plist-abstract-photography.gif"
+thumbnail: "/projects/osticket-integration/osticket.png"
 
 intro: |
   Integration of an online open-source helpdesk dashboard running on a linode cloud server for use by a local nonprofit running a 122-acre site. Resulted in quicker, more responsive site and facility maintenance at no cost to the Farm.

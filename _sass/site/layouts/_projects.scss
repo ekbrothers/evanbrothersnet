@@ -154,7 +154,7 @@ $thumb-animation-ease-out: ease-in-out;
           }
         }
       }
-
+      // Controls the project page thumbnail hover action
       &:hover .thumbnail-description-wrapper p.thumbnail-description,
       &:focus .thumbnail-description-wrapper p.thumbnail-description {
         //semi-transparent background
