@@ -24,9 +24,9 @@ This site runs on Jekyll, an opensource static site generating platform.
 
 - Additionally, you may need to update the bundler using the following:
 
-```
-bundle update --bundler
-```
+  ```
+  bundle update --bundler
+  ```
 
 - Install Gem dependencies in the by running:
   ```
