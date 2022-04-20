@@ -1,15 +1,15 @@
 ---
 date: 2017-6-1
 published: true
-title: "Ski Solutions"
+title: "COMACO Farmer Cooperative Manual"
 description: "Responsive experience redesign for a tailor-made ski tour operator"
-categories: website, ux, mobile
-disciplines: UX, Responsive web design, HTML/CSS
-media: Website
+categories: print
+disciplines: Print
+media: Print
 ownership:
-client: Ski Solutions
-time_period: 2017
-thumbnail: "/projects/ski-solutions/plist-ski-solutions.jpg"
+client: Community Markets for Conservation
+time_period: 2015
+thumbnail: "/projects/cooperative-manual/Farmer Cooperative Manual Bundle.jpg"
 
 website:
   button_text: Visit the site
@@ -30,24 +30,16 @@ content_layout:
   - section_layout: 1col
     images:
       - caption:
-        description: 'Homepage'
-        url: '/projects/ski-solutions/ski-solutions-homepage.jpg'
+        description: "Manual Front"
+        url: "/projects/cooperative-manual/COMACO Cooperative Manual Front.jpg"
         width:
         height:
 
   - section_layout: 1col
     images:
       - caption:
-        description: 'Property listing'
-        url: '/projects/ski-solutions/ski-solutions-listing.jpg'
-        width:
-        height:
-
-  - section_layout: 1col
-    images:
-      - caption:
-        description: 'Property'
-        url: '/projects/ski-solutions/ski-solutions-property.jpg'
+        description: "Manual Spread"
+        url: "/projects/cooperative-manual/COMACO Farm Cooperative Manual Spread.jpg"
         width:
         height:
 ---

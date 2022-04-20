@@ -35,6 +35,12 @@ dd {
   line-height: var(--line-height-tiny);
 }
 
+.hero-text {
+  font-family: $font-family-secondary;
+  font-size: var(--font-size-level-jumbo);
+  line-height: var(--line-height-tight);
+}
+
 .type-level-1 {
   font-family: $font-family-secondary;
   font-size: var(--font-size-level-1);

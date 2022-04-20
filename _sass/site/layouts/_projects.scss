@@ -6,11 +6,27 @@ $thumb-animation-time-out: $timing-interaction;
 $thumb-animation-ease-out: ease-in-out;
 
 //Layout
+
 .projects-intro-wrapper {
   @extend .grid-container;
 
+  /* The hero image */
+  .hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/about/fundamentalbadge.png");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
   .projects-intro {
-    @include grid-column(6);
+    @include grid-column(3);
 
     @include grid-media(phablet) {
       @include grid-column-from-to(2, 5);

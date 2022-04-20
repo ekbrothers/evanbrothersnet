@@ -40,15 +40,17 @@ education:
     period: 2016
 
 certifications:
-  - event: RESI Hackathon
-    period: 2018
-    result: Winners - Team FreeCycle
-    link: https://medium.com/@bemyapp/resi-hackathon-2018-cbf185c29838
+  - certlogo: /images/about/Scrumorg-PSM_outertext-200-1.png
+    event: Professional Scrum Master I (PSM I)
+    period: 2020
+    result: More info on Professional Scrum Master Certification
+    link: https://www.scrum.org/professional-scrum-master-i-certification
 
-  - event: Culture Mile Fusion Prize
-    period: 2019 - Present
-    result: Shortlisted (Ongoing) - Team Knolo
-    link: https://www.culturemile.london/fusion-prize-shortlist/knolo
+  - certlogo: /images/about/fundamentalbadge.png
+    event: Azure Fundamentals
+    period: 2020
+    result: More info on the Azure Fundamentals Certification
+    link: https://docs.microsoft.com/en-us/learn/certifications/exams/az-900
 
 skills:
   - Graphic design
@@ -96,11 +98,11 @@ about_site: |
     "name": "Evan Brothers",
     "jobTitle": "Software Engineer",
     "nationality": "American",
-    "url": "http://www.himatt.com/",
+    "url": "http://www.evanbrothers.net",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "London",
-      "addressCountry": "United Kingdom"
+      "addressLocality": "Cincinnati",
+      "addressCountry": "United States"
     }
   }
 </script>
@@ -141,10 +143,11 @@ about_site: |
         </div>
 
         <div class="about-section about-section--nested">
-          <h3 class="about-section-title type-level-2">Certifications</h3>
+          <h3 class="about-section-title type-level-2">Certs</h3>
           <dl class="relational-list">
             {% for certification-item in page.certifications %}
-              <dt class="relational-list__title">{{ certification-item.event | markdownify}}</dt>
+            <dt class="image"><img src="{{ certification-item.certlogo }}" style="width:25%;height:25%;" alt=""></dd>
+              <dd class="relational-list__title">{{ certification-item.event | markdownify}}</dt>
               <dd class="relational-list__description relational-list__description--period">{{ certification-item.period | markdownify}}</dd>
               <dd class="relational-list__description"><a href="{{ certification-item.link }}">{{ certification-item.result | markdownify}}</a></dd>
             {% endfor %}
@@ -154,7 +157,7 @@ about_site: |
 
       <div class="about-tools">
         <div class="about-section">
-          <h3 class="about-section-title type-level-2">Tools &amp; Technologies</h3>
+          <h3 class="about-section-title type-level-2">Tools &amp; Tech</h3>
           <ul class="list--dashed list--small">
             {% for tool in page.tools %}
               <li>{{ tool | markdownify }}</li>
