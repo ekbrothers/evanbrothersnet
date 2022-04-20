@@ -1,11 +1,8 @@
----
-# will generate redirects from redirect_from in page frontmatter
----
-https://www.evanbrothers.net/* {{ site.url }}/:splat 301!
-https://evanbrothers.net/* {{ site.url }}/:splat 301!
-http://www.evanbrothers.net/* {{ site.url }}/:splat 301!
-http://evanbrothers.net/* {{ site.url }}/:splat 301!
-/blog/* {{ site.url }}/:splat 301
+https://www.evanbrothers.net/* https://evanbrothers.net/:splat 301!
+https://evanbrothers.net/* https://evanbrothers.net/:splat 301!
+http://www.evanbrothers.net/* https://evanbrothers.net/:splat 301!
+http://evanbrothers.net/* https://evanbrothers.net/:splat 301!
+/blog/* https://evanbrothers.net/:splat 301
 
 /portfolio / 301
 /projects / 301
@@ -15,8 +12,7 @@ http://evanbrothers.net/* {{ site.url }}/:splat 301!
 /projects/saving-lives-sea / 301
 /projects/usa-just-brand / 301
 
-{% for page in site.posts %}{% if page.redirect_from %}{{ page.redirect_from }} {{ page.url }} 301
-{% endif %}{% endfor %}{% for page in site.html_pages %}{% if page.redirect_from %}{{ page.redirect_from }} {{ page.url }} 301
-{% endif %}{% endfor %}{% for collection in site.collections %}{% unless collection.last.output == false or collection.output == false or collection.label == 'posts' %}{% for doc in collection.last.docs %}{% if doc.redirect_from %}{{ doc.redirect_from }} {{ doc.url | replace:'/index.html','/' | normalize_url }} 301
-{% endif %}{% endfor %}{% for doc in collection.docs %}{% if doc.redirect_from %}
-{{ doc.redirect_from }} {{ doc.url | replace:'/index.html','/' | normalize_url }} 301{% endif %}{% endfor %}{% endunless %}{% endfor %}
+/projects/typefaces /fonts/ 301
+/portfolio / 301
+
+/projects/sound-thunder /projects/the-sound-of-thunder/ 301
