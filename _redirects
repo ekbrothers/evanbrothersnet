@@ -1,8 +1,8 @@
-https://www.evanbrothers.net/* https://evanbrothers.net/:splat 301!
-https://evanbrothers.net/* https://evanbrothers.net/:splat 301!
-http://www.evanbrothers.net/* https://evanbrothers.net/:splat 301!
-http://evanbrothers.net/* https://evanbrothers.net/:splat 301!
-/blog/* https://evanbrothers.net/:splat 301
+https://www.evanbrothers.net/* https://ekbrothers.github.io/evanbrothersnet//:splat 301!
+https://evanbrothers.net/* https://ekbrothers.github.io/evanbrothersnet//:splat 301!
+http://www.evanbrothers.net/* https://ekbrothers.github.io/evanbrothersnet//:splat 301!
+http://evanbrothers.net/* https://ekbrothers.github.io/evanbrothersnet//:splat 301!
+/blog/* https://ekbrothers.github.io/evanbrothersnet//:splat 301
 
 /portfolio / 301
 /projects / 301
