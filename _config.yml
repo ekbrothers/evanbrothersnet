@@ -22,7 +22,7 @@ title: Evan Brothers
 long-title: Evan Brothers
 email: ekbrothers@gmail.com
 description: "The selected portfolio of Cincinnati based techie Evan Brothers"
-baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://evanbrothers.net" # the base hostname & protocol for your site
 timezone: Europe/London
 year: 2020
