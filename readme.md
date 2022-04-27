@@ -60,7 +60,6 @@ This site runs on Jekyll, an opensource static site generating platform.
 [GNU General Public License v3.0](LICENSE) (open source)
 
 # Additional Information on the Theme
-
 ## Project List Image Resolution
 
 Plist images (the thumbnails used on the Projects page) are at a ratio 600 x 450.
